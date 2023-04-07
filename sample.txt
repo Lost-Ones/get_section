@@ -5,4 +5,4 @@ Fa0/4                        notconnect   1          auto    auto  10/100BaseTX
 Fa0/5                        notconnect   1          auto    auto  10/100BaseTX
 Fa0/6                        notconnect   1          auto    auto  10/100BaseTX
 Fa0/7                        notconnect   1          auto    auto  10/100BaseTX
-Fa0/8                       notconnect   1          auto    auto  10/100BaseTX
+Fa0/8                        notconnect   1          auto    auto  10/100BaseTX
