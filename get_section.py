@@ -43,7 +43,7 @@ class GetSection():
 def main():
     file_to_read = input("Enter the name of the file to read: ")
     start = input("Enter the Start word to search: ")
-    stop = input("Enter the end Word of search: ")
+    stop = input("Enter the End Word of search: ")
     data_list = FileToList(file_to_read=file_to_read)
     text = data_list.make_list()
 
@@ -52,8 +52,7 @@ def main():
 
     for k,v in results.items():
         for line in v:
-            if 'switchport access vlan 330' in line:
-                print('-->', k, v)
+            print('-->', k, v)
 
 if __name__ == "__main__":
     main()
