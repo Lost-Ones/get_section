@@ -7,6 +7,9 @@ Data is returned as a dictionary and print text id provided when the application
 This can be called by another application.
 
 ex:
+import get_section as gs
+
+text = 'sample.txt'
 start = 'Fa'
 stop = '\n'
 data = gs.GetSection(text=text, start=start, stop=stop)
